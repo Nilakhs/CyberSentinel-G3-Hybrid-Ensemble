@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & Operating System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Network captures and raw dataset CSVs (preserve results CSVs)
+*.pcap
+data/
+*.log
+!results/*.csv

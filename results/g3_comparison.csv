@@ -1,0 +1,5 @@
+accuracy,macro_f1,attack_recall,normal_false_alarm,recall_bruteforce,recall_normal,recall_scan,recall_synflood,latency_ms,size_kb,experiment,type
+1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.53,632.1,E0: XGBoost Baseline,Supervised ML
+0.9941,0.9996,0.9996,0.0337,0.9697,0.9663,1.0,1.0,0.289,28.6,E1: Standalone Autoencoder,Unsupervised DL Anomaly
+1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.355,662.6,E2: G3 Hybrid Stacking,Hybrid Ensemble (ML+DL)
+1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.898,660.9,E3: G3 Soft Voting,Voting Ensemble (ML+DL)
